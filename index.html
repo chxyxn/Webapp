@@ -19,14 +19,14 @@
         <h2 class="city">New York</h2>
         <div class="details">
             <div class="col">
-                <img src="images/humidity.png">
+                <img src="./images/humidity.png">
                 <div>
                     <p class="humidity">50%</p>
                     <p>Humidity</p>
                 </div>
             </div>
             <div class="col">
-                <img src="images/wind.png">
+                <img src="./images/wind.png">
                 <div>
                     <p class="wind">25km</p>
                     <p>Wind Speed</p>
@@ -67,19 +67,19 @@
             document.querySelector(".error").style.display = "none";
 
             if(data.weather[0].main =="clouds"){
-            weatherIcon.src ="images/clouds.png"
+            weatherIcon.src ="./images/clouds.png"
         }
         else if(data.weather[0].main =="clear"){
-            weatherIcon.src ="images/clear.png"
+            weatherIcon.src ="./images/clear.png"
     }
     else if(data.weather[0].main =="Rain"){
-            weatherIcon.src ="images/rain.png"
+            weatherIcon.src ="./images/rain.png"
     }
     else if(data.weather[0].main =="Drizzle"){
-            weatherIcon.src ="images/drizzle.png"
+            weatherIcon.src ="./images/drizzle.png"
     }
     else if(data.weather[0].main =="Mist"){
-            weatherIcon.src ="images/mist.png"
+            weatherIcon.src ="./images/mist.png"
     }    
  /*  else {
         weatherIcon.src ="images/noimage.png"
